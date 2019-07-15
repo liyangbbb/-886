@@ -1,0 +1,233 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.header{
+   height:65px;
+   border-bottom:1px solid #ddd;
+
+}
+
+.header .tupian{
+   width:30px;
+   height:40px;
+   /*border:1px solid red;*/
+   margin-left:10px;
+}
+.header .dade{
+	/*width:800px;*/
+	height:50px;
+	/*border:1px solid red;*/
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+.header .wenzhi{
+	width:120px;
+	height:40px;
+	/*border:1px solid red;*/
+	text-align:center;
+	font-size:24px;
+	padding-top:10px;
+	margin-left:40px;
+}
+.header .kobai p{
+	margin-top:12px;
+	font-size:20px;
+}
+
+.header .kobai{
+	width:100px;
+	height:50px;
+	/*border:1px solid red;*/
+	display:flex;
+}  /*第一部分*/
+
+.beibeihezi{
+	height:50px;
+	border-bottom: 1px solid #ddd;
+	display:flex;
+	justify-content:space-between;
+	/*text-align: center;*/
+}
+
+.beibeihezi .bazhi img{
+	margin-top:5px;
+	width:30px;
+}
+.beibeihezi .bazhi{
+	width:190px;
+	height:40px;
+	/*border:1px solid red;*/
+}
+.beibeihezi .bazhi span:nth-child(1){
+    width:30px;
+    height:30px;
+    /*border: 1px solid red;   */
+}
+.beibeihezi .bazhi span:nth-child(2){
+    width:60px;
+    height:20px;
+    /*border: 1px solid red;*/
+    font-size:20px; 
+}
+ 
+ .beibeihezi .wangcheng{
+ 	width:45px;
+ 	height:30px;
+ 	/*border:1px solid red;*/
+ 	font-size:20px;
+ 	margin-top:10px;
+ }
+
+.youquanhezhi{
+	height:120px;
+	/*border:1px solid red;*/
+	display:flex;
+	justify-content:space-between;
+}
+
+.youquanhezhi .youquangyi{
+	width:40%;
+	height:115px;
+	/*border: 1px solid red;*/
+}
+
+.youquangyi{
+	display:flex;
+	justify-content:space-between;
+	text-align: center;
+}
+.youquangyi .quanliang{
+	width:70px;
+    height:110px;
+    /*border:1px solid red;*/
+	
+}
+.youquangyi .quanliang .gougou{
+	margin-top:30px;
+	width:35px;
+	height: 35px;
+}
+.youquangyi .quanliang .niunai{
+	width:80px;
+	height:110px;
+}
+
+
+.youquanhezhi .youquanger{
+	width:58%;
+	height:115px;
+	/*border: 1px solid red;*/
+}
+
+li{
+	list-style: none;
+}
+
+.youquanhezhi .youquanger li:nth-child(1){
+	width:200px;
+	height:35px;
+	/*border:1px solid red;*/
+	font-size:12px;
+	margin-top:11px;
+	margin-left:8px;
+}
+
+.youquanhezhi .youquanger .tianran{
+	width:100px;
+	height:40px;
+	/*border:1px solid red;*/
+	display:flex;
+	justify-content:space-around;
+	text-align:center;
+	margin-left:108px;
+	margin-top:11px;
+	font-size:22px;
+}
+.youquanhezhi .youquanger .oo{
+	border: 1px solid #ddd;
+	width:61px;
+	/*text-align:center;*/
+}
+
+.heise{
+	height:20px;
+	background-color:#ddd;
+}
+
+.youquanger .zhiliang{
+	width:120px;
+	height:20px;
+	/*border:1px solid red;*/
+	font-size:11px;
+	color:#ddd;
+	margin-left:8px;
+}
+
+.youquanger li:nth-child(3){
+	display:flex;
+	justify-content:space-between;
+    height:30px;
+    /*border: 1px solid red;*/
+    margin-top:8px;
+}
+.youquanger .house{
+	color:red;
+}
+
+
+.huisehezhi{
+	height:140px;
+	background-color:#ddd;
+}
+
+
+/*最后结尾部分*/
+.youhuihezhi{
+	height:60px;
+	/*border:1px solid red;*/
+	display:flex;
+	justify-content:space-between;
+}
+
+.youhuihezhi .jinger{
+	height:60px;
+	width:120px;
+	/*border:1px solid red;*/
+	display:flex;
+	justify-content:space-between;
+	font-size:12px;
+}
+li{
+	list-style:none;
+}
+.youhuihezhi .jinger li span:nth-child(1){
+color:black;
+}	
+.youhuihezhi .jinger li:nth-child(1){
+	margin-top:10px;
+    color:red;
+}
+.youhuihezhi .jinger li:nth-child(2){
+	margin-top:10px;
+    color:#ddd;
+}
+.youhuihezhi img{
+	margin-top:10px;
+}
+
+
+.youhuihezhi .jieshuan{
+	height:60px;
+	width:120px;
+	/*border:1px solid red;*/
+	background-color:red;
+	text-align:center;
+}
+.youhuihezhi p{
+    margin-top:16px;
+    font-size:20px;
+    color:#fff;
+}

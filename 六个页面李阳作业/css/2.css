@@ -1,0 +1,110 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.header{
+   height:60px;
+   border-bottom:1px solid #ddd;
+}
+
+.header .tupian{
+   width:30px;
+   height:40px;
+   /*border:1px solid red;*/
+   margin-left:10px;
+}
+.header .dade{
+	/*width:800px;*/
+	height:50px;
+	/*border:1px solid red;*/
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+.header .wenzhi{
+	width:110px;
+	height:40px;
+	/*border:1px solid red;*/
+	text-align:center;
+	font-size:24px;
+	padding-top:10px;
+	margin-left:40px;
+}
+.header .kobai{
+	width:90px;
+	height: 50px;
+}  /*第一部分*/
+
+
+
+
+.biankuan{
+  height:70px;
+  /*border:1px solid red;*/
+  display:flex;
+  justify-content:space-between;
+  margin-top:15px;
+}
+.biankuan .yi{
+	width:40px;
+	height:45px;
+	/*border: 1px solid red;*/
+}
+.biankuan .er{
+	width:500px;
+	height:45px;
+	border-bottom:1px solid #ddd;
+	display:flex;
+	justify-content:space-between;
+	margin-left:20px;
+	
+}
+.biankuan .san{
+	width:120px;
+	height:33px;
+	/*border:1px solid red;*/
+	text-align:center;
+	padding-top:10px;
+	font-size:20px;
+	/*margin-left:15px;*/
+
+}
+.biankuan .si{
+	width:40px;
+	height:42px;
+	/*border:1px solid red;*/
+}
+.biankuan .si img{
+	width:30px;
+	height:40px;
+}
+
+.biankuan .dianhua{
+	width:128px;
+	height:25px;
+	/*border:1px solid red;*/
+	text-align:center;
+	margin-top:12px;
+	font-size:20px;
+	margin-left:30px;
+	
+}
+
+.biankuan .wei{
+	width:70px;
+	height:25px;
+	/*border:1px solid red;*/
+	text-align:center;
+	margin-top:12px;
+	font-size:20px;
+	margin-left:90px;	
+}
+.biankuan .wu{
+	width:80px;
+	height:33px;
+	/*border:1px solid red;*/
+	text-align:center;
+	padding-top:10px;
+	font-size:20px;
+}
